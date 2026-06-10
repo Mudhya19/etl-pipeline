@@ -54,6 +54,7 @@ etl pipeline/
 │   └── load.py                # Tahapan Load (penyimpanan data)
 ├── main.py                    # Orchestrator — menjalankan seluruh pipeline
 ├── requirements.txt           # Daftar dependencies
+├── submission.txt             # Berkas petunjuk eksekusi dan link repositori (WAJIB)
 ├── products.csv               # Output data bersih (hasil pipeline)
 ├── google-sheets-api.json     # Service account key (jika menggunakan Google Sheets)
 └── README.md                  # Dokumentasi proyek (file ini)
@@ -433,6 +434,7 @@ python -m pytest tests/ --cov=utils --cov-report=term-missing
 
 - ✅ Kode modular (`extract.py`, `transform.py`, `load.py` terpisah)
 - ✅ File `requirements.txt` tersedia
+- ✅ File `submission.txt` tersedia dan terisi lengkap (WAJIB)
 - ✅ Tidak menggunakan Jupyter Notebook (`.ipynb`)
 - ✅ Kolom `Timestamp` tersedia (Kriteria 1 — Skilled)
 - ✅ Error handling di setiap fungsi (Kriteria 1 — Advanced)
