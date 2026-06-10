@@ -92,13 +92,13 @@ cd "c:\Users\IT\data science\etl pipeline"
 
 ```bash
 # Membuat virtual environment
-python -m venv venv
+python -m venv .venv
 
 # Aktivasi virtual environment
 # Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 # macOS/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ### 3. Install Dependencies
